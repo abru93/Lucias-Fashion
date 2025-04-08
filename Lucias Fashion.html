@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lucias Fashion</title>
+  <style>
+    body {
+      font-family: 'Bookman Old Style', Bookman Old Style, Geneva, Bookman Old Style, Bookman Old Style;
+      margin: 0;
+      padding: 0;
+      background-color: #fdf6f0;
+      color: #333;
+    }
+    header {
+      background-color: #530875;
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+    h1 {
+      margin: 0;
+    }
+    .container {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .crafts {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .card {
+      background-color: white;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+    .card:hover {
+      transform: scale(1.03);
+    }
+    .card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .card h3 {
+      margin: 15px 0 10px;
+    }
+    .whatsapp-float {
+      position: fixed;
+      width: 60px;
+      height: 60px;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: white;
+      border-radius: 50%;
+      text-align: center;
+      font-size: 30px;
+      box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+    }
+    .whatsapp-float:hover {
+      background-color: #1ebe5d;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>LUCIAS FASHION</h1>
+  <p>Hand Made Craft With Love</p>
+</header>
+
+<div class="container">
+  <h2>Our Creations</h2>
+  <div class="crafts">
+    <div class="card">
+      <img src="https://via.placeholder.com/250x180?text=Macrame+Wall+Hanging" alt="Craft 1">
+      <h3>Customized Work</h3>
+      <p>Handmade with cotton rope. Adds a boho charm to your space.</p>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/250x180?text=Clay+Pottery" alt="Craft 2">
+      <h3>Gift Hamper</h3>
+      <p>Unique and rustic pottery crafted with care and detail.</p>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/250x180?text=Knitted+Dolls" alt="Craft 3">
+      <h3>Photo Frame</h3>
+      <p>Cute and cuddly dolls made from soft yarn, perfect for gifts.</p>
+    </div>
+  </div>
+</div>
+
+<!-- WhatsApp floating button -->
+<a href="https://wa.me/919995586092" class="whatsapp-float" target="_blank" title="Chat with us on WhatsApp">
+  &#x1F4AC;
+</a>
+
+</body>
+</html>
